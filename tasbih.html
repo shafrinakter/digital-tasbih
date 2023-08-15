@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="flex items-center justify-center">
+    <section>
+        <h1 class="text-7xl font-semibold flex items-center justify-center text-purple-500 text-center mt-5">Digital
+            Tasbih Counter</h1>
+        <div class="md:flex lg:flex gap-5">
+            <div class="text-center my-10 p-10 shadow space-y-5 ">
+                <h1 class="text-3xl mb-5 text-purple-700">Subahanallah</h1>
+                <h1 id="count1" class="font-bold text-5xl text-purple-950">0</h1>
+                <button onclick="clickhere()"
+                    class="btn bg-purple-900 px-5 py-3 text-white rounded-2xl">INCREMENT</button>
+                <button id="decrement-btn"
+                    class=" btn bg-purple-600 px-5 py-3 text-white rounded-2xl">INCREMENT</button>
+
+            </div>
+            <div class="text-center my-10 p-10 shadow space-y-5 ">
+                <h1 class="text-3xl mb-5 text-purple-700">Alhamdulillah</h1>
+                <h1 id="count2" class="font-bold text-5xl text-purple-950">0</h1>
+                <button onclick="clicktasbih2()" class="btn bg-purple-900 px-5 py-3 text-white rounded-2xl">INCREMENT</button>
+                <button id="decrement-btn2"
+                    class=" btn bg-purple-600 px-5 py-3 text-white rounded-2xl">INCREMENT</button>
+
+            </div>
+            <div class="text-center my-10 p-10 shadow space-y-5 ">
+                <h1 class="text-3xl mb-5 text-purple-700">Alhamdulillah</h1>
+                <h1 id="count3" class="font-bold text-5xl text-purple-950">0</h1>
+                <button onclick="clicktasbih3()" class="btn bg-purple-900 px-5 py-3 text-white rounded-2xl">INCREMENT</button>
+                <button  id="decrement-btn3"
+                    class=" btn bg-purple-600 px-5 py-3 text-white rounded-2xl">INCREMENT</button>
+
+            </div>
+
+        </div>
+
+    </section>
+    <script src="tasbih.js"></script>
+</body>
+
+</html>
